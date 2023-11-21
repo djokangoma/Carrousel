@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: serif;
+    padding: 14px;
+    background: rgb(246,246, 246);
+}
+h1{
+    font-size: 3rem;
+    margin-top: 12px;
+}
+.carousel{
+    height: 100vh;
+    width: 50vw;
+}
+.slide img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
