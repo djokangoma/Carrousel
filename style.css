@@ -51,7 +51,7 @@ h1{
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: 0.4s ease;
+    transition: 0.4s ease-in-out;
 }
 .slide.active{
     opacity: 1;
